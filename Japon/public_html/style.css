@@ -145,7 +145,7 @@ footer {
 body section textarea {
     width:100%;
 }
-body {
+.body {
     font-weight: bolder;
     background-image: url(images/formulaire.jpg);
     background-size:cover;
