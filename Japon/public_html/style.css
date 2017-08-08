@@ -45,6 +45,29 @@
   text-align: left;
   animation: 30s slidy infinite;
 }
+
+/*destinations*/
+#destinations {    
+    background-color:#b8ff6b;
+    color:#015e13;
+}
+#destinations h2 {
+    text-align: center;
+}
+#destinations div img {
+    width:100px;
+}
+/*background de la page en mode paysage*/
+@media only screen and (min-width:768px){
+    .page{
+    height:2000px;
+    background-image: url(images/japon.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+}
+}
+
+
 header {
     background-color: black;
     color: white;
@@ -59,6 +82,11 @@ header {
 #titre h1 {
     text-align: center;
     font-size: 35px;
+}
+@media only screen and (min-width: 768px){
+    #titre h1 {
+        font-size: 145px;
+    }
 }
 #titre h1 .vert {
     color: #015E13;
@@ -82,6 +110,9 @@ header {
     color: white;
     text-align: center;
 }
+#qualite .picto {
+    background-image: url(images/picto.png);
+}
 
 
 
@@ -89,5 +120,6 @@ footer {
     background-color: black;
     color: white;
     font-size: 10px;
+    text-align: center;
 }
 

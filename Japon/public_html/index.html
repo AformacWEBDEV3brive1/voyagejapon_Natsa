@@ -14,8 +14,8 @@
 
     <body>
 
-        <header id="menu" class="container">
-            <nav class="navbar navbar-default">
+        <header id="menu">
+            <nav class="navbar navbar-default container">
                 <div class="container-fluid">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -43,71 +43,81 @@
                 </div>
             </nav>
         </header>     
-
-        <section id="titre" class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h1><span class="vert">VERT</span>  <span class="orange">ORANGÉ</span></h1>
+        <div class="page">
+            <section id="titre" class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h1><span class="vert">VERT</span>  <span class="orange">ORANGÉ</span></h1>
+                    </div>
                 </div>
-            </div>
-        </section>      
+            </section>      
 
-        <section id="image" class="container">
-
-        </section>     
-
-        <section id="description" class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h2 class="description">DESCRIPTION</h2>
-                    <p>L'agence de voyages remplit le rôle de conseil en s'assurant ou en avertissant des formalités nécessaires à l'entrée dans un pays. Elle ferme également les destinations à la vente selon les recommandations du Ministère des Affaires Étrangères et Européennes (pour la France) et gère avec ses fournisseurs les problèmes pouvant être rencontrés. </p>
+            <section id="image" class="container">
+                <img src="images/japon.jpg" class="hidden-sm-up imageSM"/>
+                <div id="slider" class="hidden-xs-down">
+                    <figure>
+                        <img src="images/japon-1.jpg"/>
+                        <img src="images/japon-2.jpg"/>
+                        <img src="images/japon-3.jpeg"/>
+                        <img src="images/japon-4.jpg"/>
+                        <img src="images/japon-1.jpg"/>
+                    </figure>
                 </div>
-            </div>
-        </section>
+            </section>     
 
-        <section id="destinations" class="container">
-            <h2>DERNIERES DESTINATIONS</h2>
-            <div></div>
-            <div></div>
-            <div></div>
-        </section>        
+            <section id="description">
 
-        <section id="qualite" class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                <h2 class="description">DESCRIPTION</h2>
+                <p>L'agence de voyages remplit le rôle de conseil en s'assurant ou en avertissant des formalités nécessaires à l'entrée dans un pays. Elle ferme également les destinations à la vente selon les recommandations du Ministère des Affaires Étrangères et Européennes (pour la France) et gère avec ses fournisseurs les problèmes pouvant être rencontrés. </p>
+
+
+            </section>
+
+            <section id="destinations" class="container">
+                <h2>DERNIERES DESTINATIONS</h2>
+                <div><img src="images/japonmontagne.jpg"/></div>
+                <div><img src="images/japontemple.jpg"/></div>
+                <div><img src="images/japonchien.jpg"/></div>
+            </section>        
+
+            <section id="qualite">
+
+                <div>
                     <h2>ENGAGEMENTS QUALITÉ</h2>
                 </div>
-            </div>
-            <div class="row">
-                <div class="row col-md-6 col-lg-6">
-                    <div class="col-6 col-xs-6 col-sm-6">a</div>
-                    <div class="col-6 col-xs-6 col-sm-6">a</div>
+                <div class="container">
+                    <div class="row">
+                        <div class="row col-md-6 col-lg-6">
+                            <div class=" picto col-6 col-xs-6 col-sm-6">a</div>
+                            <div class="picto col-6 col-xs-6 col-sm-6">a</div>
+                        </div>
+                        <div class="row col-md-6 col-lg-6">
+                            <div class="picto col-6 col-xs-6 col-sm-6">a</div>
+                            <div class="picto col-6 col-xs-6 col-sm-6">a</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="row col-md-6 col-lg-6">
+                            <div class="picto col-6 col-xs-6 col-sm-6">a</div>
+                            <div class="picto col-6 col-xs-6 col-sm-6">a</div>
+                        </div>
+                        <div class="row col-md-6 col-lg-6">
+                            <div class="picto col-6 col-xs-6 col-sm-6">a</div>
+                            <div class="picto col-6 col-xs-6 col-sm-6">a</div>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="row col-md-6 col-lg-6">
-                    <div class="col-6 col-xs-6 col-sm-6">a</div>
-                    <div class="col-6 col-xs-6 col-sm-6">a</div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="row col-md-6 col-lg-6">
-                    <div class="col-6 col-xs-6 col-sm-6">a</div>
-                    <div class="col-6 col-xs-6 col-sm-6">a</div>
-                </div>
-                <div class="row col-md-6 col-lg-6">
-                    <div class="col-6 col-xs-6 col-sm-6">a</div>
-                    <div class="col-6 col-xs-6 col-sm-6">a</div>
-                </div>
-            </div>
+            </section>
 
+            <section id="gmaps" class="container">
 
-        </section>
+            </section>
+        </div>
 
-        <section id="gmaps" class="container">
-
-        </section>
-
-        <footer id="contacts" class="container">
-            <div class="row">
+        <footer id="contacts">
+            <div class="container row">
                 <div class="col-6 col-xs-6">
                     <p>Agence Vert Orangé</p>
                     <p>route du parc</p>
