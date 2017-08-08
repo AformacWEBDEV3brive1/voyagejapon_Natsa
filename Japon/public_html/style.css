@@ -1,1 +1,46 @@
+header {
+    background-color: black;
+    color: white;
+}
+
+
+
+#titre  {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#titre h1 {
+    text-align: center;
+    font-size: 35px;
+}
+#titre h1 .vert {
+    color: #015E13;
+}
+#titre h1 .orange {
+    color: #FF6600;
+}
+
+
+
+#description .description {
+    background-color: #FF6600;
+    color: white;
+    text-align: center;
+}
+
+
+
+#qualite h2 {
+    background-color: #FF6600;
+    color: white;
+    text-align: center;
+}
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 10px;
+}
 
