@@ -14,12 +14,18 @@
 
     <body>
 
-        <header id="menu" class="container">
-
+        <header>
+            <div>
+                <img src="images/hamburger.png" style="width:50px; margin-right:1%;"/>
+            </div>
         </header>     
         <div class="page">
             <section id="titre" class="container">
-                <h1>VERT ORANGÉ</h1>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h1><span class="vert">VERT</span>  <span class="orange">ORANGÉ</span></h1>
+                    </div>
+                </div>
             </section>      
 
             <section id="image" class="container">
@@ -35,48 +41,87 @@
                 </div>
             </section>     
 
-            <section id="description" class="container">
-                <h2>DESCRIPTION</h2>
-                <p>Guide voyage Tokyo, Kyoto et environs 2017
-                    Trop loin, trop cher, trop inaccessible : longtemps, le Japon a été assimilé à 
-                    une sorte de planète Mars, et pourtant, c’est une étoile fascinante. Avec un taux 
-                    de change devenu favorable aux Européens, l’archipel nippon est désormais plus accessible.
-                    Les mégapoles d’abord : Tokyo, la plus grande ville du monde, un univers urbain 
-                    électrique, trépidant, étincelant. Kyoto, l’ancienne capitale impériale, ville 
-                    des arts et des geishas, du thé et de l’ikebana. Nara, le berceau artistique et 
-                    religieux, mais aussi Nikko haut perchée dans ses montagnes, Kamakura au bord de 
-                    la mer, Hakone la porte du mont Fuji, symbole majestueux du Japon, à voir au printemps 
-                    au moment où les cerisiers fleurissent.
-                </p>
+            <section id="description">
+
+
+                <h2 class="description">DESCRIPTION</h2>
+                <p>L'agence de voyages remplit le rôle de conseil en s'assurant ou en avertissant des formalités nécessaires à l'entrée dans un pays. Elle ferme également les destinations à la vente selon les recommandations du Ministère des Affaires Étrangères et Européennes (pour la France) et gère avec ses fournisseurs les problèmes pouvant être rencontrés. </p>
+
+
             </section>
 
             <section id="destinations" class="container">
                 <h2>DERNIERES DESTINATIONS</h2>
-                <div><img src="images/japonmontagne.jpg"/></div>
-                <div><img src="images/japontemple.jpg"/></div>
-                <div><img src="images/japonchien.jpg"/></div>
+                <div class="row"><div class="col-6"><img src="images/japonmontagne.jpg"/></div>
+                    <div class="col-6"><h3>Montagne</h3></div>
+                    <p>Le mont Fuji est une montagne du centre du Japon qui se trouve sur la côte sud de l'île de Honshū, au sud-ouest de l'agglomération de Tokyo. Avec 3 776 mètres d'altitude, il est le point culminant du Japon</p>
+                </div>
+
+                <div class="row"><div class="col-6"><img src="images/japontemple.jpg"/></div><div class="col-6"><h3>Temple</h3></div>
+                    <p>Au Japon, les temples bouddhiques existent côte à côte avec les sanctuaires shinto, et tous deux partagent les mêmes caractéristiques essentielles de l'architecture japonaise traditionnelle</p>
+                </div>
+                <div class="row"><div class="col-6"><img src="images/japonchien.jpg"/></div><div class="col-6"><h3>Chien</h3></div>
+                    <p>Avec son air très fier et sa queue enroulée en panache, le chien akita inu fait directement penser aux petits lions qui ornent l’entrée des temples nippons.</p>
+                </div>
             </section>        
 
-            <section id="qualite" class="container">
-                <h2>ENGAGEMENTS QUALITÉ</h2>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <section id="qualite">
+
+                <div>
+                    <h2>ENGAGEMENTS QUALITÉ</h2>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="row col-md-6 col-lg-6">
+                            <div class=" picto col-6 col-xs-6 col-sm-6">a</div>
+                            <div class="picto col-6 col-xs-6 col-sm-6">a</div>
+                        </div>
+                        <div class="row col-md-6 col-lg-6">
+                            <div class="picto col-6 col-xs-6 col-sm-6">a</div>
+                            <div class="picto col-6 col-xs-6 col-sm-6">a</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="row col-md-6 col-lg-6">
+                            <div class="picto col-6 col-xs-6 col-sm-6">a</div>
+                            <div class="picto col-6 col-xs-6 col-sm-6">a</div>
+                        </div>
+                        <div class="row col-md-6 col-lg-6">
+                            <div class="picto col-6 col-xs-6 col-sm-6">a</div>
+                            <div class="picto col-6 col-xs-6 col-sm-6">a</div>
+                        </div>
+                    </div>
+
+                </div>
             </section>
 
             <section id="gmaps" class="container">
-
+                <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29320.803493155476!2d138.71998255028353!3d35.36170549602203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6019629a42fdc899%3A0xa6a1fcc916f3a4df!2sMont+Fuji!5e1!3m2!1sfr!2sfr!4v1502197960128" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
             </section>
-
-            <footer id="contacts" class="container">
-
-            </footer>
         </div>
+
+        <footer id="contacts">
+            <div class="container row">
+                <div class="col-6 col-xs-6">
+                    <p>Agence Vert Orangé</p>
+                    <p>route du parc</p>
+                    <p>87000 Limoges</p>
+                    <p>05 55 55 55 55</p>
+                </div>
+                <div class="col-6 col-xs-6">
+                    <p>Nos Horaires</p>
+                    <p>Du lundi au vendredi</p>
+                    <p>De 8h30 à 18h30</p>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-xs-12">
+                        <a href="formulaire.html">Formulaire de Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
     </body>
 

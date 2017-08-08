@@ -1,3 +1,4 @@
+
 /*image en smartphone*/
 #image .imageSM{
     width:100%;
@@ -45,12 +46,16 @@
   font-size: 0;
   left: 0;
   text-align: left;
-  animation: 20s slidy infinite;
+  animation: 10s slidy infinite;
 }
+
 /*destinations*/
-#destinations{
+#destinations {    
     background-color:#b8ff6b;
     color:#015e13;
+}
+#destinations h2 {
+    text-align: center;
 }
 #destinations div img {
     width:100px;
@@ -58,9 +63,68 @@
 /*background de la page en mode paysage*/
 @media only screen and (min-width:768px){
     .page{
-    height:2000px;
     background-image: url(images/japon.jpg);
     background-size:cover;
     background-attachment:fixed;
 }
+}
+
+
+header {
+    background-color: black;
+    color: white;
+}
+
+
+
+#titre  {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#titre h1 {
+    text-align: center;
+    font-size: 35px;
+}
+@media only screen and (min-width: 768px){
+    #titre h1 {
+        font-size: 145px;
+    }
+}
+#titre h1 .vert {
+    color: #015E13;
+}
+#titre h1 .orange {
+    color: #FF6600;
+}
+
+
+
+#description .description {
+    background-color: #FF6600;
+    color: white;
+    text-align: center;
+}
+
+
+
+#qualite h2 {
+    background-color: #FF6600;
+    color: white;
+    text-align: center;
+}
+#qualite .picto {
+    background-image: url(images/picto.png);
+}
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+#gmaps div{
+    margin-left:auto;
+    margin-right:auto;
 }
