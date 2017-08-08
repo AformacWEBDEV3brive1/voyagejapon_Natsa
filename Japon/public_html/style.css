@@ -1,7 +1,9 @@
+/*image en smartphone*/
 #image .imageSM{
     width:100%;
     height:100%;
 }
+/*caroussel*/
 #image #slider{
     width: 80%; 
     max-width: 1000px; 
@@ -43,5 +45,22 @@
   font-size: 0;
   left: 0;
   text-align: left;
-  animation: 30s slidy infinite;
+  animation: 20s slidy infinite;
+}
+/*destinations*/
+#destinations{
+    background-color:#b8ff6b;
+    color:#015e13;
+}
+#destinations div img {
+    width:100px;
+}
+/*background de la page en mode paysage*/
+@media only screen and (min-width:768px){
+    .page{
+    height:2000px;
+    background-image: url(images/japon.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+}
 }
