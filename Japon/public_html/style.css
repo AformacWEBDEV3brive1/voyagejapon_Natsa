@@ -1,8 +1,12 @@
 
+
+/*image en smartphone*/
+
 #image .imageSM{
     width:100%;
     height:100%;
 }
+/*caroussel*/
 #image #slider{
     margin-left: auto;
     margin-right: auto;
@@ -44,7 +48,7 @@
   font-size: 0;
   left: 0;
   text-align: left;
-  animation: 30s slidy infinite;
+  animation: 10s slidy infinite;
 }
 
 /*destinations*/
@@ -135,6 +139,7 @@ footer {
 }
 
 
+
 /* formulaire*/
 
 body section textarea {
@@ -161,3 +166,4 @@ body {
      margin-top: 14%;
      margin-bottom: 13%;
  }
+
