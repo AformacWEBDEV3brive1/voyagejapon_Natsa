@@ -9,12 +9,12 @@
     margin-right: auto;
 }
 #image #slider figure{
-  position: relative; 
-  width: 500%;
-  margin: 0;
-  padding: 0;
-  font-size: 0;
-  text-align: left;
+    position: relative; 
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    text-align: left;
 }
 #image #slider figure img{
     width:20%;
@@ -27,25 +27,25 @@
     overflow:hidden;
 }
 @keyframes slidy {
-  0% { left: 0%; }
-  20% { left: 0%; }
-  25% { left: -100%; }
-  45% { left: -100%; }
-  50% { left: -200%; }
-  70% { left: -200%; }
-  75% { left: -300%; }
-  95% { left: -300%; }
-  100% { left: -400%; }
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
 }
 #image #slider figure {
-  position: relative;
-  width: 500%;
-  margin: 0;
-  padding: 0;
-  font-size: 0;
-  left: 0;
-  text-align: left;
-  animation: 10s slidy infinite;
+    position: relative;
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    left: 0;
+    text-align: left;
+    animation: 10s slidy infinite;
 }
 /*destinations*/
 #destinations {    
@@ -59,10 +59,10 @@
 /*background de la page en mode paysage*/
 @media only screen and (min-width:768px){
     .page{
-    background-image: url(images/japon.jpg);
-    background-size:cover;
-    background-attachment:fixed;
-}
+        background-image: url(images/japon.jpg);
+        background-size:cover;
+        background-attachment:fixed;
+    }
 }
 header {
     background-color: black;
@@ -104,18 +104,18 @@ header {
 }
 @media only screen and (max-width:768px) {
     #qualite .picto {
-    background-image: url(images/picto.png);
-}
-#qualite p{
-    color:#015e13;
-}
+        background-image: url(images/picto.png);
+    }
+    #qualite p {
+        color:#015e13;
+    }
 }
 @media only screen and (min-width:768px){
     #qualite p {
-    color:white;
+        color:white;
     }
     #qualite{
-    background-color: #FF6600;
+        background-color: #FF6600;
     }
 }
 #qualite .picto {
@@ -145,8 +145,8 @@ body section textarea {
     background-attachment: fixed;
 }
 .section_formulaire {
-   margin-top: 15%;
-   margin-bottom: 12%;
+    margin-top: 15%;
+    margin-bottom: 12%;
 }
 
  /*login*/
@@ -189,3 +189,39 @@ body section textarea {
     position:fixed;
  }
 
+.section_login {
+    margin-top: 15%;
+    margin-bottom: 63%;
+}
+
+@media only screen and (min-width:920px){
+    .section_login {
+        margin-top: 15%;
+        margin-bottom: 22%;
+    }
+}
+
+/*cgv*/
+.section_cgv {
+    margin-top: 14%;
+    margin-bottom: 13%;
+}
+
+/*menu grand*/
+ .float{
+     margin-top:10%;
+     float:left;
+     position:fixed;
+ }
+ .float .menugrand{
+     position:relative;
+     text-align:center;
+     color:white;
+     height:100%;
+     padding-top: 50%;
+     padding-bottom: 50%;
+     background:#FF6600;
+ }
+ .tout{
+     float:right;
+ }
