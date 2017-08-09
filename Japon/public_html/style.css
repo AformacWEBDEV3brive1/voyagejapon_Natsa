@@ -122,9 +122,6 @@ header {
     margin-top: 3px;
     margin-right: 0px;
 }
-
-
-
 footer {
     background-color: black;
     color: white;
@@ -142,7 +139,7 @@ body section textarea {
     width:100%;
 }
 .body {
-    font-weight: bolder;
+    font-weight:bolder;
     background-image: url(images/formulaire.jpg);
     background-size:cover;
     background-attachment: fixed;
@@ -154,21 +151,38 @@ body section textarea {
 
  /*login*/
  
- .section_login {
-     margin-top: 15%;
-     margin-bottom: 63%;
- }
+.section_login {
+    margin-top: 15%;
+    margin-bottom: 63%;
+}
  
- @media only screen and (min-width:920px){
- .section_login {
-     margin-top: 15%;
-     margin-bottom: 22%;
- }
- }
- 
+@media only screen and (min-width:920px){
+.section_login {
+    margin-top: 15%;
+    margin-bottom: 22%;
+}
+}
  /*cgv*/
  .section_cgv {
      margin-top: 14%;
      margin-bottom: 13%;
+ }
+ /*menu grand*/
+ .float{
+     margin-top:10%;
+     float:left;
+     position:fixed;
+ }
+ .float .menugrand{
+     position:relative;
+     text-align:center;
+     color:white;
+     height:100%;
+     padding-top: 50%;
+     padding-bottom: 50%;
+     background:#FF6600;
+ }
+ .tout{
+     float:right;
  }
 
