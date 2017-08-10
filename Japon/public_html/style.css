@@ -109,6 +109,10 @@ header {
     color: white;
     text-align: center;
 }
+.engagement{
+    text-align:center;
+    margin-left: 10%;
+}
 #qualite h2 {
     background-color: #FF6600;
     color: white;
@@ -117,11 +121,11 @@ header {
 #qualite img {
     width: 15%;
     float: left;
-    opacity:1%;
 }
 @media only screen and (max-width:768px) {
     #qualite .picto {
         background-image: url(images/picto.png);
+        opacity:0.50;
     }
     #qualite p {
         color:#015e13;
@@ -137,7 +141,7 @@ header {
 }
 #qualite .picto {
     margin-top: 3px;
-    margin-right: 0px;
+   
 }
 
 
