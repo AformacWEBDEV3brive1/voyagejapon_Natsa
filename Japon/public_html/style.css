@@ -225,3 +225,7 @@ body section textarea {
  .tout{
      float:right;
  }
+ #contacts p {
+     font-size: 150%;
+     font-family: monospace;
+ }
