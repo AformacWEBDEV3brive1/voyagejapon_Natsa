@@ -7,6 +7,7 @@
 #image #slider{
     margin-left: auto;
     margin-right: auto;
+    border-radius:5%;
 }
 #image #slider figure{
     position: relative; 
@@ -132,6 +133,7 @@ footer {
     text-align: center;
 }
 #gmaps div iframe{
+    border-radius:5%;
     width:100%;
 }
 /* formulaire*/
@@ -221,7 +223,12 @@ body section textarea {
      padding-top: 50%;
      padding-bottom: 50%;
      background:#FF6600;
+     border-radius:10%;
  }
  .tout{
      float:right;
+ }
+ #contacts p{
+     font-size:150%;
+     font-family:monospace;
  }
