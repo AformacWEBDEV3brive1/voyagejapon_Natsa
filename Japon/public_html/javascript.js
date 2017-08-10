@@ -17,7 +17,9 @@ function mail() {
     } else{
     }
 }
-
+function popin() {
+    alert('Présence de cookies sur le site!');
+}
 
 
 
