@@ -1,7 +1,7 @@
 
 function mail() {
     var nbr = parseInt(document.getElementById('insert').childNodes.length);
-    if(nbr < 6){
+    if(nbr < 8){
     var champ = document.createElement("input");
     champ.name = "email1";
     champ.type = "text";
