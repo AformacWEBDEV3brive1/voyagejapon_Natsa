@@ -6,8 +6,9 @@
         <title>VERT ORANGÉ</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="tether-1.3.3/dist/js/tether.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script type="text/javascript" src="libraries/bootstrap/js/bootstrap.js"></script>
+        <script type="text/javascript" src="libraries/bootstrap/js/bootstrap.js"></script>        
         <script type="text/javascript" src="javascript.js"></script>
         <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.css">        
         <link rel="stylesheet" href="style.css">
@@ -39,20 +40,22 @@
         <section class="container section_formulaire">
             <form method="post" action="">
                 <label>Votre email :</label><input type="text" name="email"/><br>
+                <p>Sujet de votre message, veuillez cocher :</p>
+                <form>                   
+                    <input type="checkbox" name="general">Général
+                    <input type="checkbox" name="destination">Destination
+                    <input type="checkbox" name="prix">Prix
+                </form><br>
                 <div class="row">
                     <div class="col-6 col-sm-6 col-md-6">
                         <label>Votre message :</label><br>
                         <textarea name="message" rows="10" cols="50"></textarea>
                         <input type="submit" value="envoyer">
                     </div>
-                    <div class="col-6 col-sm-6 col-md-6">
+                    <div id="insert" class="col-6 col-sm-6 col-md-6">
                         <input type="button" onclick="mail()" value="ajouter un champ mail">
-                        <p id="insert">Sujet de votre message, veuillez cocher :</p><br>
-                        <form>                   
-                            <input type="checkbox" name="general">Général
-                            <input type="checkbox" name="destination">Destination
-                            <input type="checkbox" name="prix">Prix
-                        </form>
+
+
 
                     </div>
                 </div>
@@ -72,15 +75,15 @@
                     <p>Du lundi au vendredi</p>
                     <p>De 8h30 à 18h30</p>
                 </div>
-            </div>
-            <div class="container row">
-                <div class="col-12 col-xs-12">
-                    <a href="index.html">Retour page principale</a>
+                <div class="container">
+                    <div class="col-12 col-xs-12">
+                        <a href="index.html">Retour page principale</a>
+                    </div>
                 </div>
             </div>
 
         </footer>
-        
+
     </body>
 
 </html>
