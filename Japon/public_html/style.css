@@ -232,3 +232,6 @@ body section textarea {
      font-size:150%;
      font-family:monospace;
  }
+ body{
+     background: linear-gradient(orange, grey);
+ }
